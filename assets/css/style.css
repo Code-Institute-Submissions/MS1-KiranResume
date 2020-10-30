@@ -8,6 +8,14 @@ body{
 .navbar-light navbar-toggler{
     color: rgba(0,0,0,0.5);
 }
+
+.heading h2{
+    color: #e84610;
+}
+
+.info-heading{
+    color:  #e84610;
+}
 /*-------------------------------------------------general,text,*/
 .uppercase{
     text-transform: uppercase;
@@ -50,4 +58,61 @@ body{
     font-family:"Raleway", sans-serif;
     margin-top: 60px;
     margin-left: 40px;
+    font-weight: bold;
+
+}
+/*-------------------------------------------------personal info*/
+.intro-container{
+     margin-top: 70px;
+    margin-left: 50px;
+    
+}
+.info-heading{
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+
+
+.personal-info-items{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: block;
+    clear: both;
+    text-align: center;
+}
+.personal-info-items .key,
+.personal-info-items .value{
+    padding-right: 8px;
+    display: inline-block;
+   
+    
+}
+.personal-info-items .key p,
+.personal-info-items .value p{
+    margin: 0;
+    padding-top: 20px;
+}
+.personal-info-items .key{
+    width: 30%;
+     padding-top: 2px;
+    vertical-align: top;
+}
+.personal-info-items .key p{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.personal-info-items .value{
+    position: relative;
+    width: 60%;
+    text-align: left;
+}
+.personal-info-items .value p{
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
 }
