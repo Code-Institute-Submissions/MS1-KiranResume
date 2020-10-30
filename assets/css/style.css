@@ -8,7 +8,10 @@ body{
 .navbar-light navbar-toggler{
     color: rgba(0,0,0,0.5);
 }
-
+/*-------------------------------------------------general,text,*/
+.uppercase{
+    text-transform: uppercase;
+}
 /*-------------------------------------------------navigation*/
 .navbar{
     margin-bottom: 0;
@@ -17,11 +20,14 @@ body{
     background-color: transparent;
 }
 .navbar-brand{
-    padding-left: 30px;
+    padding-left: 0px;
     display: inline-block;
     font-family:"Raleway", sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     font-weight:bold;
+    height: 42px;
+    width: 60;
+    text-align: center;
 }
 .navbar-nav{
     font-family: "Raleway", sans-serif;
@@ -29,4 +35,19 @@ body{
     padding-left: 70%;
     font-weight: bold;
     text-align: left;
-   }
+}
+.navbar-nav a:hover{
+    color:#e84610 !important;
+    font-size: 18px;
+}
+.navbar-brand:hover{
+    color:#e84610 !important;
+}
+
+/*-------------------------------------------------heading*/
+
+.heading{
+    font-family:"Raleway", sans-serif;
+    margin-top: 60px;
+    margin-left: 40px;
+}
