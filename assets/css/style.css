@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap');
+
+/*-------------------------------------------------colours*/
+
+body{
+    background-color: beige;
+}
+.navbar-light navbar-toggler{
+    color: rgba(0,0,0,0.5);
+}
+
+/*-------------------------------------------------navigation*/
+.navbar{
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: transparent;
+}
+.navbar-brand{
+    padding-left: 30px;
+    display: inline-block;
+    font-family:"Raleway", sans-serif;
+    font-size: 20px;
+    font-weight:bold;
+}
+.navbar-nav{
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    padding-left: 70%;
+    font-weight: bold;
+    text-align: left;
+   }
