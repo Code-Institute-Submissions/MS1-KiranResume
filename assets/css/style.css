@@ -1,118 +1,140 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap");
 
 /*-------------------------------------------------colours*/
 
-body{
-    background-color: beige;
+body {
+  background-color: beige;
 }
-.navbar-light navbar-toggler{
-    color: rgba(0,0,0,0.5);
-}
-
-.heading h2{
-    color: #e84610;
+.navbar-light navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
 }
 
-.info-heading{
-    color:  #e84610;
+.heading h2 {
+  color: #e84610;
+}
+
+.info-heading {
+  color: #e84610;
 }
 /*-------------------------------------------------general,text,*/
-.uppercase{
-    text-transform: uppercase;
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+}
+.uppercase {
+  text-transform: uppercase;
 }
 /*-------------------------------------------------navigation*/
-.navbar{
-    margin-bottom: 0;
-    border: 0;
-    width: 100%;
-    background-color: transparent;
+.navbar {
+  margin-bottom: 0;
+  border: 0;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
 }
-.navbar-brand{
-    padding-left: 0px;
-    display: inline-block;
-    font-family:"Raleway", sans-serif;
-    font-size: 25px;
-    font-weight:bold;
-    height: 42px;
-    width: 60;
-    text-align: center;
+.navbar-brand {
+  padding-left: 0px;
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  height: 42px;
+  width: 60;
+  text-align: left;
 }
-.navbar-nav{
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
-    padding-left: 70%;
-    font-weight: bold;
-    text-align: left;
+.navbar-nav {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+  margin-right: 0;
 }
-.navbar-nav a:hover{
-    color:#e84610 !important;
-    font-size: 18px;
+.navbar-nav li {
+  text-align: right;
 }
-.navbar-brand:hover{
-    color:#e84610 !important;
+
+.navbar-nav a:hover {
+  color: #e84610 !important;
+  font-size: 18px;
+}
+.navbar-brand:hover {
+  color: #e84610 !important;
 }
 
 /*-------------------------------------------------heading*/
 
-.heading{
-    font-family:"Raleway", sans-serif;
-    margin-top: 60px;
-    margin-left: 40px;
-    font-weight: bold;
+.heading {
+  font-family: "Raleway", sans-serif;
+  margin-top: 60px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
 
+.heading h2 {
+  font-size: 30px;
+}
+
+@media only screen and (min-width: 992px) {
+  .heading h2 {
+    font-size: 45px;
+  }
+  .heading h4 {
+    font-size: 25px;
+  }
 }
 /*-------------------------------------------------personal info*/
-.intro-container{
-     margin-top: 70px;
-    margin-left: 50px;
-    
+.intro-container {
+  margin-top: 70px;
 }
-.info-heading{
-    font-family: "Raleway", sans-serif;
-    font-size: 30px;
-    padding: 10px;
-    margin-bottom: 20px;
-    text-align: center;
-    }
+.info-heading {
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+}
 
-
-.personal-info-items{
-    padding-top: 20px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    display: block;
-    clear: both;
-    text-align: center;
+.personal-info-items {
+  padding-right: 10px;
+  margin-bottom: 20px;
+  display: block;
+  clear: both;
+  text-align: center;
 }
 .personal-info-items .key,
-.personal-info-items .value{
-    padding-right: 8px;
-    display: inline-block;
-   
-    
+.personal-info-items .value {
+  padding-right: 8px;
+  display: inline-block;
 }
 .personal-info-items .key p,
-.personal-info-items .value p{
-    margin: 0;
-    padding-top: 20px;
+.personal-info-items .value p {
+  margin: 0;
+  padding-top: 20px;
 }
-.personal-info-items .key{
-    width: 30%;
-     padding-top: 2px;
-    vertical-align: top;
+.personal-info-items .key {
+  width: 30%;
+  padding-top: 2px;
+  vertical-align: top;
 }
-.personal-info-items .key p{
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    font-weight: 600;
+.personal-info-items .key p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
 }
-.personal-info-items .value{
-    position: relative;
-    width: 60%;
-    text-align: left;
+.personal-info-items .value {
+  position: relative;
+  width: 60%;
+  text-align: center;
 }
-.personal-info-items .value p{
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    font-weight: 400;
+.personal-info-items .value p {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
 }
+/*-------------------------------------------------footer*/
