@@ -153,11 +153,23 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
 }
+.portfolio-container .row{
+    margin-right: 20px;
+    margin-left: 20px;
+}
 
 .portfolio-container h6 {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   padding-top: 50px;
+}
+.portfolio-containe h3{
+    color: #e84610;
+}
+.portfolio-container p{
+    font-family: "Raleway", sans-serif;
+    font-size:20px;
+    padding-top: 10px;
 }
 .block-divider {
   margin-right: 100%;
