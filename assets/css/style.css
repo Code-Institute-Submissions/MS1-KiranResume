@@ -6,7 +6,7 @@ body {
   background-color: beige;
 }
 
-.navbar-light navbar-toggler {
+.navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, 0.5);
 }
 
@@ -38,13 +38,15 @@ body {
   padding: 0.5rem 1rem;
 }
 .navbar-brand {
-  padding-left: 0px;
+  padding-left: 10px;
   display: inline-block;
   font-family: "Raleway", sans-serif;
   font-size: 25px;
   font-weight: bold;
   height: 42px;
-  width: 60;
+  width: 42px;
+  border-radius: 50%;
+  background-color: #e84610;
   text-align: left;
 }
 .navbar-nav {
@@ -66,7 +68,7 @@ body {
   font-size: 18px;
 }
 .navbar-brand:hover {
-  color: #e84610 !important;
+  color: #fff !important;
 }
 
 /*-------------------------------------------------heading*/
@@ -138,6 +140,47 @@ body {
   font-size: 18px;
   font-weight: 400;
 }
+
+/*-------------------------------------------------Profile image*/
+.img-fluid {
+  width: 100%;
+  max-width: 530px;
+  height: auto;
+}
+/*-------------------------------------------------Portfolio*/
+.portfolio-container {
+  padding: 10px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
+.portfolio-container h6 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  padding-top: 50px;
+}
+.block-divider {
+  margin-right: 100%;
+  width: 80px;
+  height: 4px;
+  border: 0;
+  background-color: #000;
+}
+.space{
+    margin: 0;
+    padding: 0;
+    height: 20px;
+}
+.row-projects{
+    max-height: 400px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
 /*-------------------------------------------------footer*/
 footer {
   color: #000;
