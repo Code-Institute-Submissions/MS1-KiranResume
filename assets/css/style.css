@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=Exo&family=Raleway&family=Roboto&display=swap');
 /*-------------------------------------------------colours*/
 
 body {
@@ -148,7 +148,7 @@ body {
   height: auto;
 }
 /*-------------------------------------------------Portfolio*/
-.portfolio-container {
+.portfolio-container{
   padding: 10px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
@@ -163,7 +163,7 @@ body {
   font-weight: 600;
   padding-top: 50px;
 }
-.portfolio-containe h3{
+.portfolio-container h3{
     color: #e84610;
 }
 .portfolio-container p{
@@ -191,6 +191,36 @@ body {
     padding-left: 25px;
     padding-right: 25px;
 
+}
+/*-------------------------------------------------About*/
+.about-container{
+    padding: 10px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+.about-container .row{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.about-container h6{
+   font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  padding-top: 50px; 
+}
+/*-------------------------------------------------contact*/
+.contact-container{
+     padding: 10px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+.contact-container .row{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.contact-container h6{
+   font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  padding-top: 50px; 
 }
 
 /*-------------------------------------------------footer*/
