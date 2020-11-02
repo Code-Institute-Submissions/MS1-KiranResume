@@ -1,5 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo&family=Raleway&family=Roboto&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Exo&family=Raleway&family=Roboto&display=swap');
 /*-------------------------------------------------colours*/
 
 body {
@@ -7,7 +7,7 @@ body {
 }
 
 .navbar-light .navbar-toggler {
-  color: rgba(0, 0, 0, 0.8);
+  color:rgba(15, 14, 14, 0.8);
 }
 
 .heading h2 {
@@ -21,7 +21,6 @@ body {
 body {
   font-family: "Raleway", sans-serif;
   font-size: 1rem;
-  
   line-height: 1.5;
   text-align: left;
 }
@@ -37,6 +36,7 @@ body {
   align-items: center;
   padding: 0.5rem 1rem;
 }
+
 .navbar-brand {
   padding-left: 10px;
   display: inline-block;
@@ -49,6 +49,7 @@ body {
   background-color: #e84610;
   text-align: left;
 }
+
 .navbar-nav {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
@@ -76,24 +77,25 @@ body {
 .heading {
   font-family: "Raleway", sans-serif;
   margin-top: 60px;
-  font-weight: 500;
   
-  margin-bottom: 30px;
+ margin-bottom: 30px;
 }
 
 .heading h2 {
   font-size: 30px;
+  font-weight: 600;
 }
 
+/*-------------------------------------------------media queries for heading*/
 @media only screen and (min-width: 992px) {
   .heading h2 {
     font-size: 45px;
-  }
-  .heading h4 {
+    }
+   .heading h4 {
     font-size: 25px;
-    
   }
 }
+
 /*-------------------------------------------------personal info*/
 .intro-container {
   margin-top: 70px;
@@ -103,6 +105,7 @@ body {
   font-size: 30px;
   padding: 10px;
   text-align: center;
+  font-weight: 600;
 }
 
 .personal-info-items {
@@ -140,7 +143,10 @@ body {
 .personal-info-items .value p {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 600;
+}
+.personal-info-items .value p a{
+    color: #e84610;
 }
 
 /*-------------------------------------------------Profile image*/
@@ -150,14 +156,14 @@ body {
   height: auto;
 }
 /*-------------------------------------------------Portfolio*/
-.portfolio-container{
+.portfolio-container {
   padding: 10px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
 }
-.portfolio-container .row{
-    margin-right: 20px;
-    margin-left: 20px;
+.portfolio-container .row {
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .portfolio-container h6 {
@@ -165,13 +171,13 @@ body {
   font-weight: 600;
   padding-top: 50px;
 }
-.portfolio-container h3{
-    color: #e84610;
+.portfolio-container h3 {
+  color: #e84610;
 }
-.portfolio-container p{
-    font-family: "Raleway", sans-serif;
-    font-size:20px;
-    padding-top: 10px;
+.portfolio-container p {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  padding-top: 10px;
 }
 .block-divider {
   margin-right: 100%;
@@ -180,86 +186,85 @@ body {
   border: 0;
   background-color: #000;
 }
-.space{
-    margin: 0;
-    padding: 0;
-    height: 20px;
+.space {
+  margin: 0;
+  padding: 0;
+  height: 20px;
 }
-.row-projects{
-    max-height: 400px;
-    margin: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
-
+.row-projects {
+  max-height: 400px;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 /*-------------------------------------------------About*/
-.about-container{
-    padding: 10px;
+.about-container {
+  padding: 10px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
 }
-.about-container .row{
-    margin-right: 20px;
-    margin-left: 20px;
+.about-container .row {
+  margin-right: 20px;
+  margin-left: 20px;
 }
-.about-container h6{
-   font-family: "Raleway", sans-serif;
+.about-container h6 {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
-  padding-top: 50px; 
-  font-style:bold;
+  padding-top: 50px;
+  font-style: bold;
 }
-.about-container h2{
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 32px;
-    padding-top: 60;
-    padding-bottom: 30px;
+.about-container h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  padding-top: 60;
+  padding-bottom: 30px;
 }
-.about-container p{
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
+.about-container p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
 }
 /*-------------------------------------------------contact*/
-.contact-container{
-     padding: 10px;
+.contact-container {
+  padding: 10px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
 }
-.contact-container .row{
-    margin-right: 20px;
-    margin-left: 20px;
+.contact-container .row {
+  margin-right: 20px;
+  margin-left: 20px;
 }
-.contact-container h6{
-   font-family: "Raleway", sans-serif;
+.contact-container h6 {
+  font-family: "Raleway", sans-serif;
   font-weight: 600;
-  padding-top: 50px; 
+  padding-top: 50px;
 }
-#contact-details h2{
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 32px;
-    padding-top: 60px;
-    padding-bottom: 30px;
-    color: #e84610;
+#contact-details h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #e84610;
 }
-#contact-details p{
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
+#contact-details p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
 }
-.center-form{
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 70%;
-    background: transparent;
+.center-form {
+  padding-top: 10px;
+  margin: 0 auto;
+  max-width: 70%;
+  background: transparent;
 }
 
-button[type="submit"]{
-    margin-top: 15px;
-    margin-bottom: 20px;
-    color: #fafafa;
-    background-color: #e84610;
+button[type="submit"] {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: #fafafa;
+  background-color: #e84610;
 }
 /*-------------------------------------------------footer*/
 footer {
