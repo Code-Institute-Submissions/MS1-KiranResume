@@ -236,7 +236,31 @@ body {
   font-weight: 600;
   padding-top: 50px; 
 }
+#contact-details h2{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #e84610;
+}
+#contact-details p{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+.center-form{
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+    background: transparent;
+}
 
+button[type="submit"]{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
 /*-------------------------------------------------footer*/
 footer {
   color: #000;

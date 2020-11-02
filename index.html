@@ -4,29 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--CSS, Bootstrap-->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
+    <!--Font Awesome-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
       integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
       crossorigin="anonymous"
     />
+    <!--Hover.css-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <title>Kiran K. Satyarthy Resume</title>
+    <title>Kiran Satyarthy Resume</title>
   </head>
 
   <body>
+    <!--Navigation-->
     <header>
-      <!--Navigation-->
+      
       <nav class="navbar navbar-expand-sm navbar-light">
         <a class="navbar navbar-brand" href="index.html">ks</a>
         <button
@@ -69,8 +73,9 @@
       </nav>
     </header>
 
+    <!--Heading-->
     <section class="container">
-      <!--Heading-->
+      
       <div class="row">
         <div class="col-md-8 heading">
           <h2 class="text-uppercase">Kiran Satyarthy</h2>
@@ -143,8 +148,9 @@
       </div>
     </section>
 
+    <!--Portfolio-->
     <section class="container-wrapper">
-      <!--Portfolio-->
+      
       <div class="container portfolio-container">
         <div class="row mt-3 pt-5">
           <div class="col-12">
@@ -246,8 +252,9 @@
       </div>
     </section>
 
+    <!--About me-->
     <section class="container-wrapper">
-    <!--about me-->
+    
       <div class="container about-container">
         <div class="row mt-3 pt-5">
           <div class="col-12">
@@ -273,18 +280,33 @@
       </div>
     </section>
 
-    <section class="container-wrapper">
     <!--contact-->
+    <section class="container-wrapper">
+    
       <div class="container contact-container">
         <div class="row mt-3 pt-5">
           <div class="col-12">
             <h6 id="contact">Contact</h6>
-            <hr class="block-divider rounded" />
-          </div>
+            <hr class="block-divider rounded" /> </div>
           <div class="space"></div>
-          <div class="col-12 text-center" id="contact-details">
-          <h2>kiran.satyarthy@gmail.com</h2>
-          <p>let's work together</p>
+        
+          <div class="col-12 text-center " id="contact-details">
+            <h2><a style="color:#e84610;" href="mailto:kiran.satyarthy@gmail.com">kiran.satyarthy@gmail.com</a></h2>
+             <p>Got a Project in mind? Let's work together!!</p>
+          </div>
+          <div class="col-12 center-form">
+          <form >
+          <input type="text" name="name" id="fullname" class="form-control form-control-lg" placeholder="Name" required>
+          <input type="email" name="email" id="emailaddress" class="form-control form-control-lg" placeholder="Email" required>
+          <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control form-control-lg" placeholder="Project Description" required></textarea>
+          <div class="form-row text-center">
+          <div class="col">
+            <button type="submit" value="Submit" class="btn btn-lg">Send Project Request</button>
+          </div>
+          </div>
+          
+          </form>
+         
           </div>
         </div>
       </div>
@@ -328,6 +350,7 @@
       </div>
     </footer>
 
+    <!-- jQuery and JS bundle w/ Popper.js -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
