@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Exo&family=Raleway&family=Roboto&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 /*-------------------------------------------------colours*/
 
 body {
@@ -7,7 +6,7 @@ body {
 }
 
 .navbar-light .navbar-toggler {
-  color:rgba(15, 14, 14, 0.8);
+  color: rgba(15, 14, 14, 0.8);
 }
 
 .heading h2 {
@@ -77,8 +76,8 @@ body {
 .heading {
   font-family: "Raleway", sans-serif;
   margin-top: 60px;
-  
- margin-bottom: 30px;
+
+  margin-bottom: 30px;
 }
 
 .heading h2 {
@@ -90,8 +89,8 @@ body {
 @media only screen and (min-width: 992px) {
   .heading h2 {
     font-size: 45px;
-    }
-   .heading h4 {
+  }
+  .heading h4 {
     font-size: 25px;
   }
 }
@@ -104,7 +103,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 30px;
   padding: 10px;
-  text-align: center;
+  text-align: left;
   font-weight: 600;
 }
 
@@ -113,7 +112,7 @@ body {
   margin-bottom: 20px;
   display: block;
   clear: both;
-  text-align: center;
+  text-align: left;
 }
 .personal-info-items .key,
 .personal-info-items .value {
@@ -131,22 +130,22 @@ body {
   vertical-align: top;
 }
 .personal-info-items .key p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 20px;
   font-weight: 500;
 }
 .personal-info-items .value {
   position: relative;
   width: 60%;
-  text-align: center;
+  text-align: left;
 }
 .personal-info-items .value p {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 600;
 }
-.personal-info-items .value p a{
-    color: #e84610;
+.personal-info-items .value p a {
+  color: #e84610;
 }
 
 /*-------------------------------------------------Profile image*/
@@ -223,7 +222,7 @@ body {
   padding-bottom: 30px;
 }
 .about-container p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 20px;
 }
 /*-------------------------------------------------contact*/
@@ -231,6 +230,7 @@ body {
   padding: 10px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
+  margin-bottom: 50px;
 }
 .contact-container .row {
   margin-right: 20px;
@@ -250,7 +250,7 @@ body {
   color: #e84610;
 }
 #contact-details p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 20px;
 }
 .center-form {
@@ -269,8 +269,7 @@ button[type="submit"] {
 /*-------------------------------------------------footer*/
 footer {
   color: #000;
-  min-height: 120px;
-  margin: 0;
+ margin: 0;
 }
 .cv-pdf i {
   font-size: 18px;
@@ -290,7 +289,7 @@ footer {
   width: 32px;
   padding: 12px 0;
   border-radius: 50%;
-  font-size: 13px;
+  font-size: 18px;
   line-height: 7px;
   text-align: center;
   color: #fff;
@@ -305,6 +304,8 @@ footer {
   background-color: #e84610 !important;
 }
 #footer-details {
-  padding: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-top: 50px;
 }
