@@ -128,44 +128,24 @@ body {
   font-weight: 600;
 }
 
-.personal-info-items {
+.personal-info-items p {
   padding-right: 10px;
   margin-bottom: 20px;
   display: block;
   clear: both;
   text-align: left;
-}
-.personal-info-items .key,
-.personal-info-items .value {
-  padding-right: 8px;
-  display: inline-block;
-}
-.personal-info-items .key p,
-.personal-info-items .value p {
   margin: 0;
   padding-top: 20px;
-}
-.personal-info-items .key {
-  width: 30%;
-  padding-top: 2px;
-  vertical-align: top;
-}
-.personal-info-items .key p {
+  width: 100%;
+  padding-left: 30px;
+  
+  
   font-family: "Raleway", sans-serif;
   font-size: 20px;
   font-weight: 600;
 }
-.personal-info-items .value {
-  position: relative;
-  width: 60%;
-  text-align: left;
-}
-.personal-info-items .value p {
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 600;
-}
-.personal-info-items .value p a {
+
+.personal-info-items a {
   color: #e84610;
 }
 
