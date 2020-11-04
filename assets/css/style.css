@@ -6,11 +6,14 @@ body {
 }
 
 .navbar-light .navbar-toggler .nav-link {
-  color:rgba(0, 0, 0, 0.8);
+  color:#000;
 }
 
 .heading h2 {
   color: #e84610;
+}
+.heading h4{
+    color:black;
 }
 
 .info-heading {
@@ -23,9 +26,26 @@ body {
   line-height: 1.5;
   text-align: left;
 }
+
 .uppercase {
   text-transform: uppercase;
 }
+
+.block-divider {
+  margin-right: 100%;
+  width: 100px;
+  height: 4px;
+  border: 0;
+  background-color: #000;
+}
+
+.space {
+  margin: 0;
+  padding: 0;
+  height: 20px;
+}
+
+/*-------------------------------------------------navigation code is taken from https://getbootstrap.com/docs/4.5/components/navbar/*/
 /*-------------------------------------------------navigation*/
 .navbar {
   margin-bottom: 0;
@@ -58,13 +78,10 @@ body {
   flex-direction: column;
   margin-bottom: 0;
   margin-right: 0;
-  color: #fff;
-}
+  }
+
 .navbar-nav li {
   text-align: right;
-}
-.navbar-nav a{
-    color: #fff;
 }
 
 .navbar-nav a:hover {
@@ -80,8 +97,7 @@ body {
 .heading {
   font-family: "Raleway", sans-serif;
   margin-top: 60px;
-
-  margin-bottom: 30px;
+ margin-bottom: 30px;
 }
 
 .heading h2 {
@@ -99,6 +115,7 @@ body {
   }
 }
 
+/*-------------------------------------------------personal info section is inspired by Rosie miniproject done in CI course (https://github.com/Kiran6248/resume-miniproject)*/
 /*-------------------------------------------------personal info*/
 .intro-container {
   margin-top: 70px;
@@ -136,7 +153,7 @@ body {
 .personal-info-items .key p {
   font-family: "Raleway", sans-serif;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .personal-info-items .value {
   position: relative;
@@ -159,20 +176,20 @@ body {
   height: auto;
 }
 /*-------------------------------------------------Portfolio*/
-.portfolio-container {
+.portfolio-container, .about-container {
   padding: 10px;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
-}
-.portfolio-container .row {
+  }
+
+.portfolio-container .row, .about-container .row, .contact-container .row {
   margin-right: 20px;
   margin-left: 20px;
 }
 
-.portfolio-container h6 {
+.portfolio-container h6, .about-container h6, .contact-container h6  {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   padding-top: 50px;
+  font-size: 20px;
 }
 .portfolio-container h3 {
   color: #e84610;
@@ -181,19 +198,10 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 20px;
   padding-top: 10px;
+  font-weight: 500;
+  color: black;
 }
-.block-divider {
-  margin-right: 100%;
-  width: 80px;
-  height: 4px;
-  border: 0;
-  background-color: #000;
-}
-.space {
-  margin: 0;
-  padding: 0;
-  height: 20px;
-}
+
 .row-projects {
   max-height: 400px;
   margin: 0;
@@ -203,21 +211,7 @@ body {
   padding-right: 25px;
 }
 /*-------------------------------------------------About*/
-.about-container {
-  padding: 10px;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
-}
-.about-container .row {
-  margin-right: 20px;
-  margin-left: 20px;
-}
-.about-container h6 {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  padding-top: 50px;
-  font-style: bold;
-}
+
 .about-container h2 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -228,23 +222,14 @@ body {
 .about-container p {
   font-family: "Raleway", sans-serif;
   font-size: 20px;
+  color: black;
 }
 /*-------------------------------------------------contact*/
 .contact-container {
   padding: 10px;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
   margin-bottom: 50px;
 }
-.contact-container .row {
-  margin-right: 20px;
-  margin-left: 20px;
-}
-.contact-container h6 {
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-  padding-top: 50px;
-}
+
 #contact-details h2 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -256,6 +241,7 @@ body {
 #contact-details p {
   font-family: "Raleway", sans-serif;
   font-size: 20px;
+  color: black;
 }
 .center-form {
   padding-top: 10px;
@@ -270,6 +256,8 @@ button[type="submit"] {
   color: #fafafa;
   background-color: #e84610;
 }
+
+/*-------------------------------------------------footer is referred from rosie-miniproject of CI(https://github.com/Kiran6248/resume-miniproject)*/
 /*-------------------------------------------------footer*/
 footer {
   color: #fff;
@@ -306,7 +294,7 @@ footer {
   padding-right: 10px;
 }
 .social-links li a i:hover {
-  background-color: #e84610 !important;
+  background-color: #e84610;
 }
 #footer-details {
   padding-top: 20px;
