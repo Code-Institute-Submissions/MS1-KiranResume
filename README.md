@@ -1,45 +1,104 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Kiran Satyarthy
+## Electrical Engineer and Post graduate in Marketing Management
 
-Welcome Kiran6248,
+[view live site here]()
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
 
-## Gitpod Reminders
+ A resume website for myself, **Kiran Satyarthy**. I am an Engineer and currently pursuing a Full-Stack development diploma from **Code Institute**. 
+ This is a single page website with 3 page length. This website is made for Recruiters and Employers. This website features my *Personal Information* , *Profile Picture*,
+  *Projects* done with Code Institute until now, A *blog* about me, *CV PDF* in resume section and *Contact* details.
+<hr>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+  ## UX
 
-`python3 -m http.server`
+ ### **User Stories**
 
-A blue button should appear to click: *Make Public*,
+ 1. Recruiters want to see past work experience of the client.
+ 2. Recruiters want to see educational qualification of the client.
+ 3. Recruiters want to know what the employee thinks about herself/himself.
+ 4. They want to easily navigate through the site and get pdf of cv, if they want.
 
-Another blue button should appear to click: *Open Browser*.
+ ### **5 Planes**---
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### **Strategy**
+  I wanted a simple website for Recruiters and Employers. Which should be easy to navigate and get information.
 
-A blue button should appear to click: *Make Public*,
+### **Scope**
+  I wanted to add my past work experiences and present ongoing course details on the site.
 
-Another blue button should appear to click: *Open Browser*.
+### **Structure**
+ I wanted the visitor of the site to easily get to see the live URL of my projects, 
+ Easily connect to my GitHub and LinkedIn. and if they want they can download the pdf version of my CV also.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### **Skeleton**
+ *Wireframes*
+ Wireframe, which was made in the initial stage of product development is a little different from the final product.
+During the development, I thought that it would be wise to add one profile image on the home page.
+ So that everybody will know who they are talking about. I thought of adding code institute past project links and live URLs also.
+  So that the recruiters can get a clear picture of my skill.
 
-## Updates Since The Instructional Video
+*The initial wireframe can be seen here*  [wireframe](assets/docs/wireframe.pdf)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### **Surface**
+ The background color is kept beige to give a calm and smooth feeling. 
+<hr>
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Features-----
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### **Typography**--
+The background color of the website is kept **beige** and the font color is **dark orange** for headings and **black** for the rest of the texts. 
+The font family is **"Raleway"** throughout the page. 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### **Navigation bar**---
+This website features a **Responsive** navigation bar on the top of the page with a logo on the left and menu links on the right. Menu links have
+link for **Project** section, **About** section, **Resume** section, and **Contact** section.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### **Home**---
+The home page is having a big heading with my name on top and some description beneath that.
+It has a **Personal Information** section, which is having details about *Full Name*, *Address*, *Telephone number*, *Email link*, link to *GitHub*, 
+and link to the *LinkedIn* site. It has one large *Profile picture* to get a better idea about me.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### **Projects**---
+The Project section is having details and descriptions of 3 projects done with the **Code Institute** until now. Those are *Rosie resume project*, *Whiskey drop site*,
+ and *Love running site*. The image of the project is linked to the live **URL** of the project and the heading is connected to **GitHub.io** or **Repl.it** repositories.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### **About**---
+The about section is a **blog** about me, which tells about the *educational background*, my immigration from India, and some family background details.
+ It also has mentioned my *current engagement with Code Institute*, where I am pursuing a Diploma right now. An inspirational quote is also added in the end.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### **Resume**--
+The resume section is a link to the pdf of my **CV**. It opens the cv on a different page and that pdf can be downloaded.
 
---------
+### **Contact**---
+The contact section has my **Email** address in bold, which opens the default email client to send a direct email from the webpage.
+It also has one form for the client where they can submit their **project description** if they like my resume .
 
-Happy coding!
+### **Footer**---
+The footer section has a link to download the cv on its left side, by clicking on the font awesome icon of download. That icon changes its color to dark orange when it hovers over.
+On the right side, It has 3 links to social networks **Github**, **Linkedin**, and **Twitter**. Which are represented by their *Font Awesome* icons.
+ It changes it's color to dark orange when hovered over and links to respective opens on a different page.
+ <hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

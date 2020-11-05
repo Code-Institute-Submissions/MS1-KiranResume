@@ -115,7 +115,6 @@ body {
   }
 }
 
-/*-------------------------------------------------personal info section is inspired by Rosie miniproject done in CI course (https://github.com/Kiran6248/resume-miniproject)*/
 /*-------------------------------------------------personal info*/
 .intro-container {
   margin-top: 70px;
@@ -196,7 +195,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 32px;
-  padding-top: 60;
+  padding-top: 60px;
   padding-bottom: 30px;
 }
 .about-container p {
