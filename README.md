@@ -79,6 +79,21 @@ On the right side, It has 3 links to social networks **Github**, **Linkedin**, a
  It changes it's color to dark orange when hovered over and links to respective opens on a different page.
  <hr>
 
+ ## Technologies used---
+
+ ### **Language used**
+ [HTML](https://en.wikipedia.org/wiki/HTML) and [CSS](https://en.wikipedia.org/wiki/CSS)  are main languages used to write code and design the site.
+
+ ### **Frameworks and other technologies used**
+ * [BootstrapCDN](https://en.wikipedia.org/wiki/BootstrapCDN) is used to make the site more responsive.
+ * [Github](https://en.wikipedia.org/wiki/GitHub) is used to make **repositories** and for **Version Control**.
+ * [Gitpod](https://en.everybodywiki.com/Gitpod) is the main IDE used for this project. Workspaces are made using Gipod.
+ * [Font Awesome](https://en.wikipedia.org/wiki/Font_Awesome) is used to import some fonts to beautify the site.
+ * [Google Fonts](https://en.wikipedia.org/wiki/Google_Fonts) is used to import fonts to this project. Main font for this project is "Raleway".
+ * [Balsamiq](https://en.wikipedia.org/wiki/Balsamiq) is used to make wirefrmaes for the project in the skeleton stage.
+ * [AutoPrefixer](http://autoprefixer.github.io/) is used to make sure to code is valid for all browsers.
+ * [W3C Validator](https://validator.w3.org/) is used for testing HTML and CSS for the site.
+ <hr>
 
 
 
