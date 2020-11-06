@@ -3,7 +3,7 @@
 
 [view live site here]()
 
- To view final look [click](assets/docs/final.jpg)
+ ![click](assets/docs/final.JPG)
 
  A resume website for myself, **Kiran Satyarthy**. I am an Engineer and currently pursuing a Full-Stack development diploma from **Code Institute**. 
  This is a single-page website with a 3-page length. This website is made for Recruiters and Employers. This website features my *Personal Information*, *Profile Picture*,
