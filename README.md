@@ -10,7 +10,7 @@
   *Projects* done with Code Institute until now, A *blog* about me, *CV PDF* in the resume section, and *Contact* details.
 ***
 
-  ## UX
+  ## **UX**
 
  ### **User Stories**
 
@@ -44,7 +44,7 @@ During the development, I thought that it would be wise to add one profile image
  The background color is kept beige to give a calm and smooth feeling. 
 ***
 
-## Features-----
+## **Features**-----
 
 ### **Typography**--
 The background color of the website is kept **beige** and the font color is **dark orange** for headings and **black** for the rest of the texts. 
@@ -96,7 +96,7 @@ On the right side, It has 3 links to social networks **Github**, **Linkedin**, a
  * [W3C Validator](https://validator.w3.org/) is used for testing HTML and CSS for the site.
  ***
 
-## Testing
+## **Testing**--
 
 * W3C Markup Validation Service is used for the testing of the **HTML** and **no error** was found. The result can be seen here [HTML Test]()
 * W3C CSS Validation service is used to check the **CSS** of the project and **no error** was found. The result can be seen here. [CSS Test]()
@@ -147,25 +147,53 @@ the CSS. That issue is resolved now.
 The navbar is not collapsing back after clicking on it, in the mobile view.
 ***
 
-## Deployment
+## **Deployment**---
 
-This project is developed using the Github repository. Coding is done in the workspace 
-provided by Gitpod.
+This project is developed using the **Github** repository. Coding is done in the workspace 
+provided by **Gitpod**.
 
-Steps taken to deploy the project--
-1. Log into Github.
-2. Select Kiran6248/MS1-KiranResume.
+Steps were taken to deploy the project--
+1. Log into **Github**.
+2. Select **Kiran6248/MS1-KiranResume**.
 3. Go to settings on the top right and scroll down to Github Pages.
-4. Under source link dropdown change the none to master branch.
-5. The page will be refreshed automatically and we will have a link to the live URL.
+4. Under source link dropdown change the none to **master** branch.
+5. The page will be refreshed automatically and we will have a link to the **live URL**.
 
 To run locally, You can clone this repository directly in the editor of your choice by
 
- ``git clone``  and adding URL of the site .
+ ``git clone``  and adding the URL of the site.
     
 `git clone http://github.com/Kiran6248/MS1-KiranResume`
     and the local clone will be created.
 ***
+
+## **Credits**---
+
+### **Content**--
+
+All the content in the personal info section and About section is written by me.
+
+### **Media**--
+
+* The profile Photo used for the site is my photo.
+* The Screenshots of all the live URL of the project were taken by
+**Snipping Tool**.
+* All the images used in the site were minimized by http://tinypng.com.
+
+
+### **Codes**---
+
+* The CDN links for Bootstarp, Font Awesome, Hover ,and jQuery were copied from http://cdnjs.com/
+* Code used in making Navbar is copied from [Bootstarp Navbar](https://getbootstrap.com/docs/4.5/components/navbar/)
+* Code used in making Contact form and Footer are referred from Rosie-Resume MINIproject of Code Institute.
+
+
+### **Acknowledgment**--
+
+My mentor **Adegbenga Adeye** for guiding me in every step and giving me great ideas to implement in my site.
+***
+
+
 
 
 
