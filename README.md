@@ -3,7 +3,7 @@
 
 [view live site here]()
 
-![Final Site Screenshot](assets/docs/final.jpg)
+![Final Site](https://github.com/Kiran6248/MS1-KiranResume/blob/master/assets/docs/final.JPG)
 
  A resume website for myself, **Kiran Satyarthy**. I am an Engineer and currently pursuing a Full-Stack development diploma from **Code Institute**. 
  This is a single-page website with a 3-page length. This website is made for Recruiters and Employers. This website features my *Personal Information*, *Profile Picture*,
