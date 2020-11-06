@@ -3,11 +3,12 @@
 
 [view live site here]()
 
+![Final Site Screenshot](assets/docs/final.jpg)
 
  A resume website for myself, **Kiran Satyarthy**. I am an Engineer and currently pursuing a Full-Stack development diploma from **Code Institute**. 
  This is a single-page website with a 3-page length. This website is made for Recruiters and Employers. This website features my *Personal Information*, *Profile Picture*,
   *Projects* done with Code Institute until now, A *blog* about me, *CV PDF* in the resume section, and *Contact* details.
-<hr>
+***
 
   ## UX
 
@@ -41,7 +42,7 @@ During the development, I thought that it would be wise to add one profile image
 
 ### **Surface**
  The background color is kept beige to give a calm and smooth feeling. 
-<hr>
+***
 
 ## Features-----
 
@@ -77,7 +78,7 @@ It also has one form for the client where they can submit their **project descri
 The footer section has a link to download the cv on its left side, by clicking on the font awesome icon of download. That icon changes its color to dark orange when it hovers over.
 On the right side, It has 3 links to social networks **Github**, **Linkedin**, and **Twitter**. Which are represented by their *Font Awesome* icons.
  It changes its color to dark orange when hovered over and links to respective opens on a different page.
- <hr>
+ ***
 
  ## Technologies used---
 
@@ -93,7 +94,7 @@ On the right side, It has 3 links to social networks **Github**, **Linkedin**, a
  * [Balsamiq](https://en.wikipedia.org/wiki/Balsamiq) is used to make wireframes for the project in the skeleton stage.
  * [AutoPrefixer](http://autoprefixer.github.io/) is used to make sure to code is valid for all browsers.
  * [W3C Validator](https://validator.w3.org/) is used for testing HTML and CSS for the site.
- <hr>
+ ***
 
 ## Testing
 
@@ -144,7 +145,29 @@ the CSS. That issue is resolved now.
 **Bug report**
 
 The navbar is not collapsing back after clicking on it, in the mobile view.
-<hr>
+***
+
+## Deployment
+
+This project is developed using the Github repository. Coding is done in the workspace 
+provided by Gitpod.
+
+Steps taken to deploy the project--
+1. Log into Github.
+2. Select Kiran6248/MS1-KiranResume.
+3. Go to settings on the top right and scroll down to Github Pages.
+4. Under source link dropdown change the none to master branch.
+5. The page will be refreshed automatically and we will have a link to the live URL.
+
+To run locally, You can clone this repository directly in the editor of your choice by
+
+ ``git clone``  and adding URL of the site .
+    
+`git clone http://github.com/Kiran6248/MS1-KiranResume`
+    and the local clone will be created.
+***
+
+
 
 
 
