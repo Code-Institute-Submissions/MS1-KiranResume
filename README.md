@@ -98,8 +98,8 @@ On the right side, It has 3 links to social networks **Github**, **Linkedin**, a
 
 ## **Testing**--
 
-* W3C Markup Validation Service is used for the testing of the **HTML** and **no error** was found. The result can be seen here [HTML Test]()
-* W3C CSS Validation service is used to check the **CSS** of the project and **no error** was found. The result can be seen here. [CSS Test]()
+* W3C Markup Validation Service is used for the testing of the **HTML** and **no error** was found. The result can be seen here [HTML Test](assets/docs/html-test.JPG)
+* W3C CSS Validation service is used to check the **CSS** of the project and **no error** was found. The result can be seen here. [CSS Test](assets/docs/css-test.JPG)
 * The Project was tested for Browser compatibility. It was found that the navbar was not being fixed in other browsers. Which was fixed by checking codes in **AutoPrefixer.github.io** and updating 
 the CSS. That issue is resolved now.
 
