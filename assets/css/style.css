@@ -239,7 +239,7 @@ body {
   margin: 0 auto;
   max-width: 70%;
   background: transparent;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 button[type="submit"] {
@@ -255,10 +255,11 @@ button[type="submit"] {
   color: #fff;
  margin: 0;
  background-color: rgba(0, 0, 0, 0.5);
+max-height: 80px;
 }
 
 .cv-pdf i {
-  font-size: 18px;
+  font-size: 16px;
   color: #000;
   text-align: center;
   padding-left: 5px;
@@ -267,7 +268,7 @@ button[type="submit"] {
   color: #e84610;
 }
 .social-links {
-  /*--padding-bottom: 15px;*/
+  padding-bottom: 15px;
   float: right;
 }
 .social-links li a i {
@@ -275,7 +276,7 @@ button[type="submit"] {
   width: 32px;
   padding-top: 12px;
   border-radius: 50%;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 7px;
   text-align: center;
   color: #fff;
