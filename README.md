@@ -1,7 +1,7 @@
 # Kiran Satyarthy
 ## Electrical Engineer and Post-Graduate in Marketing Management
 
-[view live site here]()
+[view live site here](https://kiran6248.github.io/MS1-KiranResume/index.html)
 
  ![click](assets/docs/final.JPG)
 
