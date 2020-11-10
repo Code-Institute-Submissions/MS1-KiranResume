@@ -107,8 +107,8 @@ body {
 /*-------------------------------------------------heading*/
 
 .heading {
-  font-family: "Raleway", sans-serif;
-  margin-top: 60px;
+ font-family: "Raleway", sans-serif;
+ margin-top: 60px;
  margin-bottom: 30px;
 }
 
@@ -149,8 +149,6 @@ body {
   padding-top: 20px;
   width: 100%;
   padding-left: 30px;
-  
-  
   font-family: "Raleway", sans-serif;
   font-size: 20px;
   font-weight: 600;
@@ -166,6 +164,7 @@ body {
   max-width: 530px;
   height: auto;
 }
+
 /*-------------------------------------------------Portfolio*/
 .portfolio-container, .about-container {
   padding: 10px;
@@ -179,7 +178,6 @@ body {
 .portfolio-container h6, .about-container h6, .contact-container h6  {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
-  padding-top: 50px;
   font-size: 20px;
 }
 .portfolio-container h3 {
@@ -207,7 +205,6 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 32px;
-  padding-top: 60px;
   padding-bottom: 30px;
 }
 .about-container p {
@@ -224,7 +221,7 @@ body {
 #contact-details h2 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 25px;
   padding-top: 60px;
   padding-bottom: 30px;
   color: #e84610;
@@ -237,10 +234,7 @@ body {
 .center-form {
   padding-top: 10px;
   margin: 0 auto;
-  max-width: 70%;
-  background: transparent;
-  margin-bottom: 70px;
-}
+ }
 
 button[type="submit"] {
   margin-top: 15px;
@@ -251,12 +245,15 @@ button[type="submit"] {
 
 /*-------------------------------------------------footer is referred from rosie-miniproject of CI(https://github.com/Kiran6248/resume-miniproject)*/
 /*-------------------------------------------------footer*/
-.footer {
-  color: #fff;
+footer {
+ color: #fff;
  margin: 0;
  background-color: rgba(0, 0, 0, 0.5);
-max-height: 80px;
-}
+ min-height: 80px;
+ padding: 0;
+ bottom: 0;
+ width: 100%;
+ }
 
 .cv-pdf i {
   font-size: 16px;
@@ -274,9 +271,9 @@ max-height: 80px;
 .social-links li a i {
   height: 32px;
   width: 32px;
-  padding-top: 12px;
+  padding: 12px 0;
   border-radius: 50%;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 7px;
   text-align: center;
   color: #fff;
@@ -286,12 +283,14 @@ max-height: 80px;
   display: inline-block;
   padding-left: 20px;
   padding-right: 10px;
+  padding-top: 10px;
 }
 .social-links li a i:hover {
   background-color: #e84610;
 }
 #footer-details {
-  padding-left: 20px;
+  padding-left: 30px;
   padding-right: 20px;
   margin-top: 10px;
-}
+  padding-top: 10px;
+ }
