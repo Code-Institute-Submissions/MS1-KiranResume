@@ -46,12 +46,12 @@
  **Wireframe**, which was made in the initial stage of product development is a little different from the final product.
 During the development, I thought that it would be wise to add one profile image on the home page.
  So that everybody will know who they are talking about. I thought of adding code institute past project links and live URLs also.
-  So that the recruiters can get a clear picture of my skill. So, I made one more wireframe with additional features and 
-with a view of tablet size device also.
+  So that the recruiters can get a clear picture of my skill. My first wireframe was missing the tablet size device view. So, I made one more wireframe and added
+  here. Which can be seen as final wireframe.
 
 *The initial wireframe can be seen here*  [wireframe](assets/docs/wireframe.pdf)
 
-*The final wireframe can be seen here*  [final wireframe]()
+*The final wireframe can be seen here*  [final wireframe](assets/docs/finalwireframe.pdf)
 
 ### **Surface**
  The background color is kept **Beige** to give a calm and smooth feeling. The font used was **"Raleway"** imported from google fonts. The font color was decided to keep **black** 
