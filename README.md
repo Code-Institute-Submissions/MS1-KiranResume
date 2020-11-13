@@ -27,7 +27,7 @@
  7. Recruiters want to know how eagerly applicants want this job and how He/She is upscaling themselves to get this.
  8. If recruiters like the profile, Is there any way to tell the applicant about the project for which they are considering that profile.
 
- ### **5 Planes**---
+ ### **5 Planes**
 
 ### **Strategy**
   I wanted a simple website for Recruiters and Employers. Which should be easy to navigate and get information.
@@ -59,42 +59,42 @@ During the development, I thought that it would be wise to add one profile image
  The links were provided to get a better idea about the projects, Github repositories and Linkedin profile.
 ***
 
-## **Features**-----
+## **Features**
 
-### **Typography**--
+### **Typography**
 The background color of the website is kept **beige** and the font color is **dark orange** for headings and **black** for the rest of the texts. 
 The font family is **"Raleway"** throughout the page. 
 
-### **Navigation bar**---
+### **Navigation bar**
 This website features a **Responsive** navigation bar on the top of the page with a logo on the left and menu links on the right. The logo is linked to the home page of the site.
  Menu links are linked to the **Project** section, **About** section, **Resume** section, and **Contact** section.
 
-### **Home**---
+### **Home**
 The home page is having a big heading with my name on top and some description beneath that.
 It has a **Personal Information** section, which is having details about *Full Name*, *Address*, *Telephone number*, *Email link*, link to *GitHub*, 
 and link to the *LinkedIn* site. It has one large *Profile picture* to get a better idea about me.
 
-### **Projects**---
+### **Projects**
 The Project section is having details and descriptions of 3 projects done with the **Code Institute** until now. Those are *Rosie resume project*, *Whiskey drop site*,
  and *Love running site*. The image of the project is linked to the live **URL** of the project and the heading is connected to **GitHub.io** or **Repl.it** repositories.
 
-### **About**---
+### **About**
 The about section is a **blog** about me, which tells about the *educational background*, my immigration from India, and some family background details.
  It also has mentioned my *current engagement with Code Institute*, where I am pursuing a Diploma right now. An inspirational quote is also added in the end.
 
-### **Resume**--
+### **Resume**
 The resume section is a link to the pdf of my **CV**. It opens the cv on a different page and that pdf can be downloaded.
 
-### **Contact**---
+### **Contact**
 The contact section has my **Email** address in bold, which opens the default email client to send a direct email from the webpage.
 It also has one form for the client where they can submit their **project description** if they like my resume.
 
-### **Footer**---
+### **Footer**
 The footer section has a link to download the cv on its left side, by clicking on the font awesome icon of download. That icon changes its color to dark orange when it hovers over.
 On the right side, It has 3 links to social networks **Github**, **Linkedin**, and **Twitter**. Which are represented by their *Font Awesome* icons.
  It changes its color to dark orange when hovered over and links to respective opens on a different page.
 
- ### **Existing Feature**--
+ ### **Existing Feature**
 
  * **Header Logo**- It always exists on top of the page. 
  * **Header Navigation Bar**- Navigation Bar is fixed and can be seen always on top.
@@ -105,13 +105,13 @@ On the right side, It has 3 links to social networks **Github**, **Linkedin**, a
  * **CV PDF**- Pdf of Cv can be downloaded through the resume button in the menubar and also from font awesome link in the footer.
 
 
- ### **Features to be implemented in the future**---
+ ### **Features to be implemented in the future**
 
  * A progress bar of skills may be added in the future, for a better idea about me.
  * After finishing the Code Institute course, updated CV and Linkedin links will be added to the project.
  ***
 
- ## Technologies used---
+ ## Technologies used
 
  ### **Language used**
  * [HTML](https://en.wikipedia.org/wiki/HTML)
@@ -154,17 +154,17 @@ On the right side, It has 3 links to social networks **Github**, **Linkedin**, a
 
  ***
 
-## **Testing**--
+## **Testing**
 
   **The detailed testing report can be found here** [Testing](TESTING.md)
  ***
 
-## **Deployment**---
+## **Deployment**
 
 This project is developed using the **Github** repository. Coding is done in the workspace 
 provided by **Gitpod**.
 
-Steps were taken to deploy the project--
+Steps were taken to deploy the project
 1. Log into **Github**.
 2. Select **Kiran6248/MS1-KiranResume**.
 3. Go to settings on the top right and scroll down to Github Pages.
@@ -176,16 +176,17 @@ To run locally, You can clone this repository directly in the editor of your cho
  ``git clone``  and adding the URL of the site.
     
 `git clone http://github.com/Kiran6248/MS1-KiranResume`
-    and the local clone will be created.
+
+and the local clone will be created.
 ***
 
-## **Credits**---
+## **Credits**
 
-### **Content**--
+### **Content**
 
 All the content in the personal info section and About section is written by me.
 
-### **Media**--
+### **Media**
 
 * The profile Photo used for the site is my photo.
 * The Screenshots of all the live URL of the project were taken by
@@ -193,14 +194,14 @@ All the content in the personal info section and About section is written by me.
 * All the images used in the site were minimized by http://tinypng.com.
 
 
-### **Codes**---
+### **Codes**
 
 * The CDN links for Bootstarp, Font Awesome, Hover, and jQuery were copied from http://cdnjs.com/
 * Code used in making Navbar is copied from [Bootstarp Navbar](https://getbootstrap.com/docs/4.5/components/navbar/)
 * Code used in making Contact form and Footer are referred from Rosie-Resume Mini project of Code Institute.
 
 
-### **Acknowledgment**--
+### **Acknowledgment**
 
 My mentor **Adegbenga Adeye** for guiding me in every step and giving me great ideas to implement in my site.
 

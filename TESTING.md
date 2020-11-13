@@ -4,7 +4,7 @@
 
 [View live site here](https://kiran6248.github.io/MS1-KiranResume/index.html)
 
-## Testing--
+## Testing
 
   [W3C Markup Validation Service](https://validator.w3.org/)
 
@@ -17,7 +17,7 @@
  The Project was tested for Browser compatibility. It was found that the navbar was not being fixed in other browsers. Which was fixed by checking codes in **AutoPrefixer.github.io** and updating 
 the CSS. That issue is resolved now.
 
-### **Client Stories Testing**--
+### **Client Stories Testing**
 
 Testing client stories from UX part of README.md 
 
@@ -56,7 +56,7 @@ Testing client stories from UX part of README.md
  
 
 
-### **Manual Testing of all elements and functionality of every page.**---
+### **Manual Testing of all elements and functionality of every page.**
 * **Navigation Bar**
     
     1. Check if the **navbar** is situated always on top.
@@ -122,8 +122,14 @@ Testing client stories from UX part of README.md
 
 **Project Barrier**
 
- The initial CDN links which were attached in the head element was an older version and that started giving the error in Bootstrap. Especially in the navbar. This is later spotted by my Mentor 
+* The initial CDN links which were attached in the head element was an older version and that started giving the error in Bootstrap. Especially in the navbar. This is later spotted by my Mentor 
  and was corrected after adding new CDN's from [cdnjs.com](https://cdnjs.com/)
+
+* The formatting of the index.html file is done with Prettier(Alt+Shift+f). It is been observed that the formatting is not consistent after the git push.
+
+* The responsiveness of the site is not perfect in Google chrome, But in Internet explorer and other browsers it is working fine.
+
+
 
 **Bug report**
 
